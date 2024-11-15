@@ -21,7 +21,7 @@ public class sorting {
     public static void main(String[] args) {
     	sorting sortable = new sorting();
         
-        // Sorting integers
+        
         List<Integer> integers = List.of(34, 1, 23, 87, 3, 45);
         List<Integer> sortedIntegers = sortable.sortIntegers(integers);
         System.out.println("Sorted Integers: " + sortedIntegers);
